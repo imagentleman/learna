@@ -1,0 +1,32 @@
+iframe {
+  background: wheat;
+  border: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.examples {
+  padding: 20px;
+}
+
+.examples-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.example {
+  height: 50vh;
+  margin-bottom: 20px;
+  position: relative;
+  width: 100vw;
+}
+
+.example-link {
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}

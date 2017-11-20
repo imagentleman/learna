@@ -1,0 +1,35 @@
+<div class='wave'></div>
+
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .wave {
+    opacity: .4;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #0af;
+    width: 100px;
+    height: 100px;
+    margin-left: -50px;
+    margin-top: -50px;
+    transform-origin: 50% 48%;
+    border-radius: 43%;
+    animation: drift 3000ms infinite linear;
+  }
+
+  @keyframes drift {
+    from {
+      transform: rotate(0deg);
+    }
+    from {
+      transform: rotate(360deg);
+    }
+  }
+</style>
+
+<!-- Based on Rico Sta. Cruz's https://codepen.io/rstacruz/pen/oxJqNv -->

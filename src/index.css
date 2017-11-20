@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  transition: all 0.2s;
+}
+
+html {
+  font-size: calc((1.5vh + 1.5vw) / 2);
+}
+
+body {
+  background-color: #ecedef;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  margin: 0;
+  padding: 0;
+}

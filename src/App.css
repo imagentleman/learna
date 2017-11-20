@@ -1,0 +1,141 @@
+header {
+  background: white;
+  display: flex;
+  height: 10vh;
+  justify-content: space-between;
+  padding: 15px 20px;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.title {
+  font-weight: 700;
+}
+
+.header-links {
+  display: flex;
+  flex-direction: row;
+}
+
+.header-link {
+  color: #bbb;
+  font-size: 0.7rem;
+  margin: 5px 10px;
+  text-decoration: none;
+}
+
+.header-link:hover {
+  text-decoration: underline;
+}
+
+button,
+.header-cta {
+  align-items: center;
+  background: white;
+  border: 2px solid black;
+  border-radius: 0;
+  color: black;
+  cursor: pointer;
+  display: flex;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  outline: none;
+  padding: 5px 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+button:hover,
+.header-cta:hover {
+  background: #de441e;
+  border-color: #de441e;
+  color: white;
+}
+
+.header-save-cta {
+  visibility: hidden;
+}
+
+.header-save-cta.visible {
+  visibility: visible;
+}
+
+.main-heading {
+  color: #bbb;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.workspace {
+  display: flex;
+  position: relative;
+}
+
+.code {
+  height: auto;
+  min-height: 90vh;
+  position: relative;
+  width: 50%;
+}
+
+.code-title {
+  color: #bbb;
+  left: 20px;
+  position: absolute;
+  top: 15px;
+}
+
+.background,
+.editor {
+  margin-left: 14px;
+  position: absolute;
+  top: 0;
+}
+
+.CodeMirror {
+  background: transparent;
+  font-family: "Roboto Mono", monospace;
+  height: auto;
+  margin-top: 7vh;
+  min-height: 75vh;
+  width: 42vw;
+}
+
+.CodeMirror-scroll {
+  min-height: 75vh;
+}
+
+.background .CodeMirror {
+  color: #bbb;
+}
+
+.preview {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 90vh;
+  position: relative;
+  width: 50%;
+}
+
+.preview-title {
+  color: #bbb;
+  position: absolute;
+  right: 20px;
+  top: 15px;
+}
+
+.window {
+  background: white;
+  border: 0;
+  box-shadow: 0 1.8vw 4vw -0.7vw rgba(0, 0, 0, 0.2);
+  height: 75vh;
+  width: 42vw;
+}
